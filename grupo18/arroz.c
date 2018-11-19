@@ -128,11 +128,13 @@ int main(){
       case 'g': // player wants to save progress____________________________________
         save_game(Creditos,cashBet, minBet);
         break;
-      case 'm': // rolar a roleta sem efeito nos creditos, apreciar o delay?__________
+      case 'm': // rolar a roleta sem efeito nos creditos, apreciar o delay?_______
         rollr();
         break;
       case 'l': //sair do loop com uma label.______________________________________
         goto finish;
+      case 'x': //Jogador quer duplicar os seus creditos___________________________
+        Creditos = Creditos*2;
     }
   }
   finish:
