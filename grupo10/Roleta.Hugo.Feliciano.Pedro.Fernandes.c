@@ -174,8 +174,13 @@ int main()
                 fgets(line, MAX, stdin);
                 sscanf(line, " %c ", &opcao);
 
-                //Se o jogador quiser rolar a bola
-                if(opcao == 'r')
+                if  (opcao == 't')
+                {
+                    printf("\n Pedro Fernandes 21803791\n");
+                    }
+             //Se o jogador quiser rolar a bola
+
+                else if(opcao == 'r')
                 {
                     valido = 1;
 
